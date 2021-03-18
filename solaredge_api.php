@@ -1,3 +1,4 @@
+<?php
 //SolarEdge API Credentials
 $solaredge_APIkey = "";
 $solaredge_ID = "";
@@ -88,6 +89,7 @@ $treesplanted = round($json->envBenefits->treesPlanted);
 $lightbulbs = $json->envBenefits->lightBulbs;
 
 ?>
+
 <h1>Solar Edge Production</h1>
 <p>SolarEdge values are updated every 15 minutes.
 <table border="1">
